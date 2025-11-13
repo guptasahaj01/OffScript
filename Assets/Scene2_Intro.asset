@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b34187fa2d1d4ba6aa760aa296b6871, type: 3}
+  m_Name: Scene2_Intro
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue
+  conversationName: 
+  lines:
+  - speaker: 2
+    text: Just another day, cleaning up the consequences of people with capes.
+  - speaker: 0
+    text: Fear not, citizen! For I, the legendary Solarstrike, have arrived to defend
+      justice!
+  - speaker: 2
+    text: "Great. Justice. Mind taking off your shoes first? You\u2019re shedding
+      rubble."
+  - speaker: 0
+    text: No need to thank me! I protect ALL the little people!
+  - speaker: 2
+    text: "I\u2019ve been cleansing the streets all morning. You\u2019re late."
+  - speaker: 1
+    text: "Oh look. The city\u2019s loudest disappointment is here."
+  - speaker: 0
+    text: "Silence, Doomscale! I shall defeat you with the blazing\u2014and very
+      expensive\u2014power of JUSTICE!"
+  - speaker: 2
+    text: more like messy power of justice
+  - speaker: 1
+    text: JOIN ME SWEEPER, FOR EVEN ONE SOUL TOWARDS MY CAUSE WEAKENS HIM FURTHER
+  - speaker: 2
+    text: do you also give long boring monologues?
+  - speaker: 1
+    text: yes, but mine are to the point with no nonsense
+  - speaker: 2
+    text: fair enough

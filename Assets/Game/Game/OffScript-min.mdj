@@ -1,0 +1,35 @@
+{
+  "_type": "Project",
+  "_id": "proj-min",
+  "name": "Minimal Use Case Test",
+  "defaultDiagram": "diag-min",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "model-min",
+      "name": "Model",
+      "ownedElements": [
+        { "_type": "UMLActor", "_id": "actor-a", "name": "Player" },
+        { "_type": "UMLUseCase", "_id": "uc-a", "name": "Start Game" },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-a",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-a" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-a" }
+        }
+      ],
+      "ownedDiagrams": [
+        {
+          "_type": "UMLUseCaseDiagram",
+          "_id": "diag-min",
+          "name": "Minimal Use Case Test",
+          "ownedViews": [
+            { "_type": "UMLActorView", "_id": "view-actor-a", "model": "actor-a", "left": 40, "top": 120 },
+            { "_type": "UMLUseCaseView", "_id": "view-uc-a", "model": "uc-a", "left": 240, "top": 120, "width": 160, "height": 40 },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-a", "model": "assoc-a", "head": "view-uc-a", "tail": "view-actor-a" }
+          ]
+        }
+      ]
+    }
+  ]
+}

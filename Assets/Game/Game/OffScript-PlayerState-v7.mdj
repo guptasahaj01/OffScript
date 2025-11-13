@@ -1,0 +1,75 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAXStateProj==",
+	"name": "OffScript — Player Statechart",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAXStateModel==",
+			"_parent": {"$ref": "AAAAAAXStateProj=="},
+			"name": "Model",
+			"ownedElements": [
+				{ "_type": "UMLStateMachineDiagram", "_id": "D_State_Player", "_parent": {"$ref": "AAAAAAXStateModel=="}, "name": "Player Statechart", "defaultDiagram": true,
+				  "ownedViews": [
+					{ "_type": "UMLPseudostateView", "_id": "V_Init", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "S_Init"}, "left": 700, "top": 20 },
+					{ "_type": "UMLStateView", "_id": "V_Idle", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "S_Idle"}, "left": 680, "top": 60, "width": 90, "height": 50 },
+					{ "_type": "UMLStateView", "_id": "V_Moving", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "S_Moving"}, "left": 300, "top": 140, "width": 110, "height": 60 },
+					{ "_type": "UMLStateView", "_id": "V_Jumping", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "S_Jumping"}, "left": 520, "top": 260, "width": 110, "height": 60 },
+					{ "_type": "UMLStateView", "_id": "V_Interacting", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "S_Interacting"}, "left": 900, "top": 180, "width": 150, "height": 60 },
+					{ "_type": "UMLStateView", "_id": "V_UsingPowerup", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "S_UsingPowerup"}, "left": 1100, "top": 180, "width": 170, "height": 60 },
+					{ "_type": "UMLStateView", "_id": "V_Incapacitated", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "S_Incapacitated"}, "left": 620, "top": 440, "width": 170, "height": 60 },
+					{ "_type": "UMLFinalStateView", "_id": "V_Dead", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "S_Dead"}, "left": 900, "top": 600 },
+					{ "_type": "UMLTransitionView", "_id": "TV_Init_Idle", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Init_Idle"}, "head": {"$ref": "V_Idle"}, "tail": {"$ref": "V_Init"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Idle_Moving", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Idle_Moving"}, "head": {"$ref": "V_Moving"}, "tail": {"$ref": "V_Idle"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Moving_Idle", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Moving_Idle"}, "head": {"$ref": "V_Idle"}, "tail": {"$ref": "V_Moving"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Idle_Jumping", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Idle_Jumping"}, "head": {"$ref": "V_Jumping"}, "tail": {"$ref": "V_Idle"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Jumping_Idle", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Jumping_Idle"}, "head": {"$ref": "V_Idle"}, "tail": {"$ref": "V_Jumping"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Idle_Interacting", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Idle_Interacting"}, "head": {"$ref": "V_Interacting"}, "tail": {"$ref": "V_Idle"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Interacting_Idle", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Interacting_Idle"}, "head": {"$ref": "V_Idle"}, "tail": {"$ref": "V_Interacting"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Idle_UsingPowerup", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Idle_UsingPowerup"}, "head": {"$ref": "V_UsingPowerup"}, "tail": {"$ref": "V_Idle"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_UsingPowerup_Idle", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_UsingPowerup_Idle"}, "head": {"$ref": "V_Idle"}, "tail": {"$ref": "V_UsingPowerup"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Moving_Jumping", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Moving_Jumping"}, "head": {"$ref": "V_Jumping"}, "tail": {"$ref": "V_Moving"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Interacting_Incapacitated", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Interacting_Incapacitated"}, "head": {"$ref": "V_Incapacitated"}, "tail": {"$ref": "V_Interacting"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_UsingPowerup_Incapacitated", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_UsingPowerup_Incapacitated"}, "head": {"$ref": "V_Incapacitated"}, "tail": {"$ref": "V_UsingPowerup"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Moving_Incapacitated", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Moving_Incapacitated"}, "head": {"$ref": "V_Incapacitated"}, "tail": {"$ref": "V_Moving"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Jumping_Incapacitated", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Jumping_Incapacitated"}, "head": {"$ref": "V_Incapacitated"}, "tail": {"$ref": "V_Jumping"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Idle_Incapacitated", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Idle_Incapacitated"}, "head": {"$ref": "V_Incapacitated"}, "tail": {"$ref": "V_Idle"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Incapacitated_Dead", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Incapacitated_Dead"}, "head": {"$ref": "V_Dead"}, "tail": {"$ref": "V_Incapacitated"} },
+					{ "_type": "UMLTransitionView", "_id": "TV_Dead_Idle", "_parent": {"$ref": "D_State_Player"}, "model": {"$ref": "T_Dead_Idle"}, "head": {"$ref": "V_Idle"}, "tail": {"$ref": "V_Dead"} }
+				  ]
+				},
+
+				{ "_type": "UMLStateMachine", "_id": "SM_Player", "_parent": {"$ref": "AAAAAAXStateModel=="}, "name": "Player" },
+				{ "_type": "UMLRegion", "_id": "R_Main", "_parent": {"$ref": "SM_Player"}, "name": "main" },
+
+				{ "_type": "UMLPseudostate", "_id": "S_Init", "_parent": {"$ref": "R_Main"}, "kind": "initial" },
+				{ "_type": "UMLState", "_id": "S_Idle", "_parent": {"$ref": "R_Main"}, "name": "Idle" },
+				{ "_type": "UMLState", "_id": "S_Moving", "_parent": {"$ref": "R_Main"}, "name": "Moving" },
+				{ "_type": "UMLState", "_id": "S_Jumping", "_parent": {"$ref": "R_Main"}, "name": "Jumping" },
+				{ "_type": "UMLState", "_id": "S_Interacting", "_parent": {"$ref": "R_Main"}, "name": "Interacting" },
+				{ "_type": "UMLState", "_id": "S_UsingPowerup", "_parent": {"$ref": "R_Main"}, "name": "UsingPowerup" },
+				{ "_type": "UMLState", "_id": "S_Incapacitated", "_parent": {"$ref": "R_Main"}, "name": "Incapacitated" },
+				{ "_type": "UMLFinalState", "_id": "S_Dead", "_parent": {"$ref": "R_Main"}, "name": "Dead" },
+
+				{ "_type": "UMLTransition", "_id": "T_Init_Idle", "_parent": {"$ref": "R_Main"}, "source": {"$ref": "S_Init"}, "target": {"$ref": "S_Idle"} },
+				{ "_type": "UMLTransition", "_id": "T_Idle_Moving", "_parent": {"$ref": "R_Main"}, "name": "moveCmd", "source": {"$ref": "S_Idle"}, "target": {"$ref": "S_Moving"} },
+				{ "_type": "UMLTransition", "_id": "T_Moving_Idle", "_parent": {"$ref": "R_Main"}, "name": "stopMove", "source": {"$ref": "S_Moving"}, "target": {"$ref": "S_Idle"} },
+				{ "_type": "UMLTransition", "_id": "T_Idle_Jumping", "_parent": {"$ref": "R_Main"}, "name": "jumpCmd", "source": {"$ref": "S_Idle"}, "target": {"$ref": "S_Jumping"} },
+				{ "_type": "UMLTransition", "_id": "T_Jumping_Idle", "_parent": {"$ref": "R_Main"}, "name": "land / updatePosition", "source": {"$ref": "S_Jumping"}, "target": {"$ref": "S_Idle"} },
+				{ "_type": "UMLTransition", "_id": "T_Idle_Interacting", "_parent": {"$ref": "R_Main"}, "name": "interactCmd", "source": {"$ref": "S_Idle"}, "target": {"$ref": "S_Interacting"} },
+				{ "_type": "UMLTransition", "_id": "T_Interacting_Idle", "_parent": {"$ref": "R_Main"}, "name": "done", "source": {"$ref": "S_Interacting"}, "target": {"$ref": "S_Idle"} },
+				{ "_type": "UMLTransition", "_id": "T_Idle_UsingPowerup", "_parent": {"$ref": "R_Main"}, "name": "usePowerupCmd", "source": {"$ref": "S_Idle"}, "target": {"$ref": "S_UsingPowerup"} },
+				{ "_type": "UMLTransition", "_id": "T_UsingPowerup_Idle", "_parent": {"$ref": "R_Main"}, "name": "effectEnd", "source": {"$ref": "S_UsingPowerup"}, "target": {"$ref": "S_Idle"} },
+				{ "_type": "UMLTransition", "_id": "T_Moving_Jumping", "_parent": {"$ref": "R_Main"}, "name": "jumpCmd", "source": {"$ref": "S_Moving"}, "target": {"$ref": "S_Jumping"} },
+				{ "_type": "UMLTransition", "_id": "T_Interacting_Incapacitated", "_parent": {"$ref": "R_Main"}, "name": "damage(>=threshold)", "source": {"$ref": "S_Interacting"}, "target": {"$ref": "S_Incapacitated"} },
+				{ "_type": "UMLTransition", "_id": "T_UsingPowerup_Incapacitated", "_parent": {"$ref": "R_Main"}, "name": "damage(>=threshold)", "source": {"$ref": "S_UsingPowerup"}, "target": {"$ref": "S_Incapacitated"} },
+				{ "_type": "UMLTransition", "_id": "T_Moving_Incapacitated", "_parent": {"$ref": "R_Main"}, "name": "damage(>=threshold)", "source": {"$ref": "S_Moving"}, "target": {"$ref": "S_Incapacitated"} },
+				{ "_type": "UMLTransition", "_id": "T_Jumping_Incapacitated", "_parent": {"$ref": "R_Main"}, "name": "damage(>=threshold)", "source": {"$ref": "S_Jumping"}, "target": {"$ref": "S_Incapacitated"} },
+				{ "_type": "UMLTransition", "_id": "T_Idle_Incapacitated", "_parent": {"$ref": "R_Main"}, "name": "damage(>=threshold)", "source": {"$ref": "S_Idle"}, "target": {"$ref": "S_Incapacitated"} },
+				{ "_type": "UMLTransition", "_id": "T_Incapacitated_Dead", "_parent": {"$ref": "R_Main"}, "name": "healthZero", "source": {"$ref": "S_Incapacitated"}, "target": {"$ref": "S_Dead"} },
+				{ "_type": "UMLTransition", "_id": "T_Dead_Idle", "_parent": {"$ref": "R_Main"}, "name": "respawn", "source": {"$ref": "S_Dead"}, "target": {"$ref": "S_Idle"} }
+			]
+		}
+	],
+	"documentVersion": 1
+}

@@ -1,0 +1,1037 @@
+fileFormatVersion: 2
+guid: 506fbb67bcb634f5dbcda7933922a806
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8664572365919100012
+    second: debris-removebg-preview_0
+  - first:
+      213: -7096523597078280398
+    second: debris-removebg-preview_1
+  - first:
+      213: -3863483605453459727
+    second: debris-removebg-preview_2
+  - first:
+      213: 6141820230135572843
+    second: debris-removebg-preview_3
+  - first:
+      213: 5189231075363650608
+    second: debris-removebg-preview_4
+  - first:
+      213: -7592694894873003321
+    second: debris-removebg-preview_5
+  - first:
+      213: 7249768723361430799
+    second: debris-removebg-preview_6
+  - first:
+      213: 887897136266978446
+    second: debris-removebg-preview_7
+  - first:
+      213: 5438417382597900187
+    second: debris-removebg-preview_8
+  - first:
+      213: -1459215200102212672
+    second: debris-removebg-preview_9
+  - first:
+      213: -7421476356451238786
+    second: debris-removebg-preview_10
+  - first:
+      213: -3406968329616857619
+    second: debris-removebg-preview_11
+  - first:
+      213: 6111238238509679586
+    second: debris-removebg-preview_12
+  - first:
+      213: -248687973974702084
+    second: debris-removebg-preview_13
+  - first:
+      213: 1293170598401045089
+    second: debris-removebg-preview_14
+  - first:
+      213: 7228917023156270607
+    second: debris-removebg-preview_15
+  - first:
+      213: 5533782140273270829
+    second: debris-removebg-preview_16
+  - first:
+      213: -7531619107317172474
+    second: debris-removebg-preview_17
+  - first:
+      213: -2010779454270766021
+    second: debris-removebg-preview_18
+  - first:
+      213: -3801042067846507963
+    second: debris-removebg-preview_19
+  - first:
+      213: 2356185380615948736
+    second: debris-removebg-preview_20
+  - first:
+      213: 391585738991270936
+    second: debris-removebg-preview_21
+  - first:
+      213: 5909564265070559683
+    second: debris-removebg-preview_22
+  - first:
+      213: -7643859403334710907
+    second: debris-removebg-preview_23
+  - first:
+      213: -1633584631092689305
+    second: debris-removebg-preview_24
+  - first:
+      213: 3927637578921740097
+    second: debris-removebg-preview_25
+  - first:
+      213: -3621124312346362681
+    second: debris-removebg-preview_26
+  - first:
+      213: 6610916260456160466
+    second: debris-removebg-preview_27
+  - first:
+      213: 5167863128397894649
+    second: debris-removebg-preview_28
+  - first:
+      213: 5549487227951934080
+    second: debris-removebg-preview_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: debris-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c1641f8aebe3870800000000000000
+      internalID: 8664572365919100012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 430
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237c8ff2365148d90800000000000000
+      internalID: -7096523597078280398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 430
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fea6656126226ac0800000000000000
+      internalID: -3863483605453459727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 430
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69e98365f02c3550800000000000000
+      internalID: 6141820230135572843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 430
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cf7785b2ad30840800000000000000
+      internalID: 5189231075363650608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 430
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca3c2f883451a690800000000000000
+      internalID: -7592694894873003321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0df1b33e3a5c9460800000000000000
+      internalID: 7249768723361430799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 345
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84a74cbdb1725c00800000000000000
+      internalID: 887897136266978446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 345
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97be06abc3297b40800000000000000
+      internalID: 5438417382597900187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 345
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb9e0bb183dfbbe0800000000000000
+      internalID: -1459215200102212672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 345
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c73c0139e910990800000000000000
+      internalID: -7421476356451238786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 345
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de56e28ea5408b0d0800000000000000
+      internalID: -3406968329616857619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e347289cca7fc450800000000000000
+      internalID: 6111238238509679586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 260
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf78353fa9b7c8cf0800000000000000
+      internalID: -248687973974702084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 260
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1627ca7cec342f110800000000000000
+      internalID: 1293170598401045089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 260
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06f00c6bb5425460800000000000000
+      internalID: 7228917023156270607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 260
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20a36f8981fbcc40800000000000000
+      internalID: 5533782140273270829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 260
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607b0dc73505a7790800000000000000
+      internalID: -7531619107317172474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34898a6db64814e0800000000000000
+      internalID: -2010779454270766021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 175
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54251b9c06cff3bc0800000000000000
+      internalID: -3801042067846507963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 175
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9059cbe1ad2b020800000000000000
+      internalID: 2356185380615948736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 175
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cfea7a7213f6500800000000000000
+      internalID: 391585738991270936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 175
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c18fdc836df20250800000000000000
+      internalID: 5909564265070559683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 175
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589843f1f5e8be590800000000000000
+      internalID: -7643859403334710907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766ce21ee675459e0800000000000000
+      internalID: -1633584631092689305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 90
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1470b1a8195c18630800000000000000
+      internalID: 3927637578921740097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 90
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc701b9f9e2fbdc0800000000000000
+      internalID: -3621124312346362681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 90
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcd7501051bebb50800000000000000
+      internalID: 6610916260456160466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 90
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3deff7220f7b740800000000000000
+      internalID: 5167863128397894649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 90
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a64ab3b3db30d40800000000000000
+      internalID: 5549487227951934080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2954faebb5feb44e2ae769af0368043c
+      internalID: -869376413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 5
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b71767cafff4d9fb445a09403a9394
+      internalID: 994270230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 5
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597187595e8ed42e3bf3b6ca15b0b19e
+      internalID: 1093553978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 5
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e17dfbcf73354a4e865aa5d741fb525
+      internalID: 25677819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 5
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c79c80e5cac40d2abd3bc84a35cd92
+      internalID: 2126659296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debris-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 5
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858b90eb3c1524408ac65359fbb313bd
+      internalID: -1650136236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0ff5fd0fbac324b8e80ee18ede6430ba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":80.0,"y":85.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      debris-removebg-preview_0: 8664572365919100012
+      debris-removebg-preview_1: -7096523597078280398
+      debris-removebg-preview_10: -7421476356451238786
+      debris-removebg-preview_11: -3406968329616857619
+      debris-removebg-preview_12: 6111238238509679586
+      debris-removebg-preview_13: -248687973974702084
+      debris-removebg-preview_14: 1293170598401045089
+      debris-removebg-preview_15: 7228917023156270607
+      debris-removebg-preview_16: 5533782140273270829
+      debris-removebg-preview_17: -7531619107317172474
+      debris-removebg-preview_18: -2010779454270766021
+      debris-removebg-preview_19: -3801042067846507963
+      debris-removebg-preview_2: -3863483605453459727
+      debris-removebg-preview_20: 2356185380615948736
+      debris-removebg-preview_21: 391585738991270936
+      debris-removebg-preview_22: 5909564265070559683
+      debris-removebg-preview_23: -7643859403334710907
+      debris-removebg-preview_24: -1633584631092689305
+      debris-removebg-preview_25: 3927637578921740097
+      debris-removebg-preview_26: -3621124312346362681
+      debris-removebg-preview_27: 6610916260456160466
+      debris-removebg-preview_28: 5167863128397894649
+      debris-removebg-preview_29: 5549487227951934080
+      debris-removebg-preview_3: 6141820230135572843
+      debris-removebg-preview_30: -869376413
+      debris-removebg-preview_31: 994270230
+      debris-removebg-preview_32: 1093553978
+      debris-removebg-preview_33: 25677819
+      debris-removebg-preview_34: 2126659296
+      debris-removebg-preview_35: -1650136236
+      debris-removebg-preview_4: 5189231075363650608
+      debris-removebg-preview_5: -7592694894873003321
+      debris-removebg-preview_6: 7249768723361430799
+      debris-removebg-preview_7: 887897136266978446
+      debris-removebg-preview_8: 5438417382597900187
+      debris-removebg-preview_9: -1459215200102212672
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

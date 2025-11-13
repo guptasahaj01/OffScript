@@ -1,0 +1,30 @@
+using UnityEngine;
+
+public class DebrisSpawner : MonoBehaviour
+{
+    public GameObject debrisPrefab; // The prefab we want to spawn
+    public float spawnRate = 2f; // How often to spawn (in seconds)
+    public float spawnAreaWidth = 10f;
+
+    private float nextSpawnTime;
+
+    void Update()
+    {
+        // Use a simple timer to spawn debris
+        if (Time.time > nextSpawnTime)
+        {
+            SpawnDebris();
+            nextSpawnTime = Time.time + spawnRate;
+        }
+    }
+
+    void SpawnDebris()
+    {
+        // Calculate a random horizontal position
+        float randomX = Random.Range(-spawnAreaWidth, spawnAreaWidth);
+        Vector2 spawnPosition = new Vector2(randomX, 6f); // 6f is high up
+
+        // Create a new debris object at that position
+        Instantiate(debrisPrefab, spawnPosition, Quaternion.identity);
+    }
+}

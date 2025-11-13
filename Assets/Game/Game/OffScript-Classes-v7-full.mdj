@@ -1,0 +1,76 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAXProjFull==",
+	"name": "OffScript — Class Diagram (v7 Full)",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAXModelFull==",
+			"_parent": {"$ref": "AAAAAAXProjFull=="},
+			"name": "Model",
+			"ownedElements": [
+				{ "_type": "UMLClassDiagram", "_id": "D_Class_Main", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "OffScript — Class Diagram", "defaultDiagram": true,
+				  "ownedViews": [
+					{ "_type": "UMLClassView", "_id": "V_Player", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_Player"}, "left": 160, "top": 40 },
+					{ "_type": "UMLClassView", "_id": "V_HUD", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_HUD"}, "left": 40, "top": 220 },
+					{ "_type": "UMLClassView", "_id": "V_Inventory", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_Inventory"}, "left": 300, "top": 220 },
+					{ "_type": "UMLClassView", "_id": "V_Item", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_Item"}, "left": 280, "top": 360 },
+					{ "_type": "UMLClassView", "_id": "V_SweepTool", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_SweepTool"}, "left": 420, "top": 520 },
+					{ "_type": "UMLClassView", "_id": "V_PowerupItem", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_PowerupItem"}, "left": 160, "top": 520 },
+					{ "_type": "UMLClassView", "_id": "V_Environment", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_Environment"}, "left": 640, "top": 120 },
+					{ "_type": "UMLClassView", "_id": "V_GameObject", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_GameObject"}, "left": 640, "top": 260 },
+					{ "_type": "UMLClassView", "_id": "V_PowerupPickup", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_PowerupPickup"}, "left": 640, "top": 420 },
+					{ "_type": "UMLClassView", "_id": "V_Debris", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_Debris"}, "left": 540, "top": 520 },
+					{ "_type": "UMLClassView", "_id": "V_Interactable", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "I_Interactable"}, "left": 560, "top": 640 },
+					{ "_type": "UMLClassView", "_id": "V_Hazard", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_Hazard"}, "left": 800, "top": 420 },
+					{ "_type": "UMLClassView", "_id": "V_Checkpoint", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_Checkpoint"}, "left": 900, "top": 520 },
+					{ "_type": "UMLClassView", "_id": "V_FreezeEvent", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_FreezeEvent"}, "left": 860, "top": 120 },
+					{ "_type": "UMLClassView", "_id": "V_ProgressTracker", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_ProgressTracker"}, "left": 1020, "top": 160 },
+					{ "_type": "UMLClassView", "_id": "V_SaveSystem", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_SaveSystem"}, "left": 1180, "top": 140 },
+					{ "_type": "UMLClassView", "_id": "V_GameEngine", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_GameEngine"}, "left": 1000, "top": 40 },
+					{ "_type": "UMLClassView", "_id": "V_GameState", "_parent": {"$ref": "D_Class_Main"}, "model": {"$ref": "C_GameState"}, "left": 1180, "top": 40 }
+				  ]
+				},
+				{ "_type": "UMLClass", "_id": "C_Player", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "Player", "attributes": [
+					{ "_type": "UMLAttribute", "_id": "A_Player_Health", "_parent": {"$ref": "C_Player"}, "name": "Health", "type": "float", "defaultValue": "100.0" },
+					{ "_type": "UMLAttribute", "_id": "A_Player_Score", "_parent": {"$ref": "C_Player"}, "name": "Score", "type": "int", "defaultValue": "0" },
+					{ "_type": "UMLAttribute", "_id": "A_Player_Lives", "_parent": {"$ref": "C_Player"}, "name": "Lives", "type": "int", "defaultValue": "3" },
+					{ "_type": "UMLAttribute", "_id": "A_Player_Position", "_parent": {"$ref": "C_Player"}, "name": "Position", "type": "Vector3", "defaultValue": "Vector3(0, 0, 0)" },
+					{ "_type": "UMLAttribute", "_id": "A_Player_Velocity", "_parent": {"$ref": "C_Player"}, "name": "Velocity", "type": "Vector3", "defaultValue": "Vector3(0, 0, 0)" },
+					{ "_type": "UMLAttribute", "_id": "A_Player_Rotation", "_parent": {"$ref": "C_Player"}, "name": "Rotation", "type": "Quaternion", "defaultValue": "Quaternion.identity" }
+				], "operations": [
+					{ "_type": "UMLOperation", "_id": "O_Player_Move", "_parent": {"$ref": "C_Player"}, "name": "Move", "returnType": "void", "parameters": [
+						{ "_type": "UMLOperationParameter", "_id": "P_Move_Direction", "_parent": {"$ref": "O_Player_Move"}, "name": "direction", "type": "Vector3" }
+					] },
+					{ "_type": "UMLOperation", "_id": "O_Player_Jump", "_parent": {"$ref": "C_Player"}, "name": "Jump", "returnType": "void", "parameters": [] },
+					{ "_type": "UMLOperation", "_id": "O_Player_Shoot", "_parent": {"$ref": "C_Player"}, "name": "Shoot", "returnType": "void", "parameters": [] },
+					{ "_type": "UMLOperation", "_id": "O_Player_PickupItem", "_parent": {"$ref": "C_Player"}, "name": "PickupItem", "returnType": "void", "parameters": [
+						{ "_type": "UMLOperationParameter", "_id": "P_PickupItem_Item", "_parent": {"$ref": "O_Player_PickupItem"}, "name": "item", "type": "Item" }
+					] },
+					{ "_type": "UMLOperation", "_id": "O_Player_TakeDamage", "_parent": {"$ref": "C_Player"}, "name": "TakeDamage", "returnType": "void", "parameters": [
+						{ "_type": "UMLOperationParameter", "_id": "P_TakeDamage_Amount", "_parent": {"$ref": "O_Player_TakeDamage"}, "name": "amount", "type": "float" }
+					] },
+					{ "_type": "UMLOperation", "_id": "O_Player_Respawn", "_parent": {"$ref": "C_Player"}, "name": "Respawn", "returnType": "void", "parameters": [] }
+				] }
+				{ "_type": "UMLClass", "_id": "C_HUD", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "HUD" },
+				{ "_type": "UMLClass", "_id": "C_Inventory", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "Inventory" },
+				{ "_type": "UMLClass", "_id": "C_Item", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "Item", "isAbstract": true },
+				{ "_type": "UMLClass", "_id": "C_SweepTool", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "SweepTool" },
+				{ "_type": "UMLClass", "_id": "C_PowerupItem", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "PowerupItem" },
+				{ "_type": "UMLClass", "_id": "C_GameObject", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "GameObject", "isAbstract": true },
+				{ "_type": "UMLClass", "_id": "C_Environment", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "Environment" },
+				{ "_type": "UMLClass", "_id": "C_PowerupPickup", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "PowerupPickup" },
+				{ "_type": "UMLClass", "_id": "C_Debris", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "Debris" },
+				{ "_type": "UMLInterface", "_id": "I_Interactable", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "Interactable" },
+				{ "_type": "UMLClass", "_id": "C_Hazard", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "Hazard" },
+				{ "_type": "UMLClass", "_id": "C_Checkpoint", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "Checkpoint" },
+				{ "_type": "UMLClass", "_id": "C_FreezeEvent", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "FreezeEvent" },
+				{ "_type": "UMLClass", "_id": "C_ProgressTracker", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "ProgressTracker" },
+				{ "_type": "UMLClass", "_id": "C_SaveSystem", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "SaveSystem" },
+				{ "_type": "UMLClass", "_id": "C_GameEngine", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "GameEngine" },
+				{ "_type": "UMLClass", "_id": "C_GameState", "_parent": {"$ref": "AAAAAAXModelFull=="}, "name": "GameState" }
+			]
+		}
+	],
+	"documentVersion": 1
+}

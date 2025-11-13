@@ -1,0 +1,109 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAXOffScriptProj==",
+	"name": "OffScript — Classes (v7)",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAXModelRoot==",
+			"_parent": {"$ref": "AAAAAAXOffScriptProj=="},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAXDiagMain==",
+					"_parent": {"$ref": "AAAAAAXModelRoot=="},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAXViewPlayer==",
+							"_parent": {"$ref": "AAAAAAXDiagMain=="},
+							"model": {"$ref": "AAAAAAXClsPlayer=="},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAXViewPlayerName==",
+									"_parent": {"$ref": "AAAAAAXViewPlayer=="},
+									"model": {"$ref": "AAAAAAXClsPlayer=="},
+									"subViews": [
+										{ "_type": "LabelView", "_id": "AAAAAAXLabStereotypeP==", "_parent": {"$ref": "AAAAAAXViewPlayerName=="}, "visible": false, "font": "Arial;13;0", "parentStyle": true, "height": 13 },
+										{ "_type": "LabelView", "_id": "AAAAAAXLabNameP==", "_parent": {"$ref": "AAAAAAXViewPlayerName=="}, "font": "Arial;13;1", "parentStyle": true, "left": 0, "top": 0, "width": 60, "height": 13, "text": "Player" },
+										{ "_type": "LabelView", "_id": "AAAAAAXLabNamespaceP==", "_parent": {"$ref": "AAAAAAXViewPlayerName=="}, "visible": false, "font": "Arial;13;0", "parentStyle": true, "height": 13, "text": "(from Model)" },
+										{ "_type": "LabelView", "_id": "AAAAAAXLabPropertyP==", "_parent": {"$ref": "AAAAAAXViewPlayerName=="}, "visible": false, "font": "Arial;13;0", "parentStyle": true, "height": 13, "horizontalAlignment": 1 }
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 60,
+									"height": 25,
+									"stereotypeLabel": {"$ref": "AAAAAAXLabStereotypeP=="},
+									"nameLabel": {"$ref": "AAAAAAXLabNameP=="},
+									"namespaceLabel": {"$ref": "AAAAAAXLabNamespaceP=="},
+									"propertyLabel": {"$ref": "AAAAAAXLabPropertyP=="}
+								},
+								{ "_type": "UMLAttributeCompartmentView", "_id": "AAAAAAXViewPlayerAttr==", "_parent": {"$ref": "AAAAAAXViewPlayer=="}, "model": {"$ref": "AAAAAAXClsPlayer=="}, "font": "Arial;13;0", "parentStyle": true, "left": 0, "top": 25, "width": 120, "height": 10 },
+								{ "_type": "UMLOperationCompartmentView", "_id": "AAAAAAXViewPlayerOp==", "_parent": {"$ref": "AAAAAAXViewPlayer=="}, "model": {"$ref": "AAAAAAXClsPlayer=="}, "font": "Arial;13;0", "parentStyle": true, "left": 0, "top": 35, "width": 120, "height": 10 }
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 160,
+							"top": 120,
+							"width": 120,
+							"height": 80,
+							"nameCompartment": {"$ref": "AAAAAAXViewPlayerName=="},
+							"attributeCompartment": {"$ref": "AAAAAAXViewPlayerAttr=="},
+							"operationCompartment": {"$ref": "AAAAAAXViewPlayerOp=="}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAXViewInventory==",
+							"_parent": {"$ref": "AAAAAAXDiagMain=="},
+							"model": {"$ref": "AAAAAAXClsInventory=="},
+							"subViews": [
+								{ "_type": "UMLNameCompartmentView", "_id": "AAAAAAXViewInventoryName==", "_parent": {"$ref": "AAAAAAXViewInventory=="}, "model": {"$ref": "AAAAAAXClsInventory=="}, "subViews": [ { "_type": "LabelView", "_id": "AAAAAAXLabInvStereo==", "_parent": {"$ref": "AAAAAAXViewInventoryName=="}, "visible": false, "font": "Arial;13;0", "parentStyle": true, "height": 13 }, { "_type": "LabelView", "_id": "AAAAAAXLabInvName==", "_parent": {"$ref": "AAAAAAXViewInventoryName=="}, "font": "Arial;13;1", "parentStyle": true, "width": 80, "height": 13, "text": "Inventory" } ], "font": "Arial;13;0", "parentStyle": true, "left": 0, "top": 0, "width": 90, "height": 25, "stereotypeLabel": {"$ref": "AAAAAAXLabInvStereo=="}, "nameLabel": {"$ref": "AAAAAAXLabInvName=="} },
+								{ "_type": "UMLAttributeCompartmentView", "_id": "AAAAAAXViewInventoryAttr==", "_parent": {"$ref": "AAAAAAXViewInventory=="}, "model": {"$ref": "AAAAAAXClsInventory=="}, "font": "Arial;13;0", "parentStyle": true, "left": 0, "top": 25, "width": 140, "height": 10 },
+								{ "_type": "UMLOperationCompartmentView", "_id": "AAAAAAXViewInventoryOp==", "_parent": {"$ref": "AAAAAAXViewInventory=="}, "model": {"$ref": "AAAAAAXClsInventory=="}, "font": "Arial;13;0", "parentStyle": true, "left": 0, "top": 35, "width": 140, "height": 10 }
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 360,
+							"top": 220,
+							"width": 140,
+							"height": 80,
+							"nameCompartment": {"$ref": "AAAAAAXViewInventoryName=="},
+							"attributeCompartment": {"$ref": "AAAAAAXViewInventoryAttr=="},
+							"operationCompartment": {"$ref": "AAAAAAXViewInventoryOp=="}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAXViewEnvironment==",
+							"_parent": {"$ref": "AAAAAAXDiagMain=="},
+							"model": {"$ref": "AAAAAAXClsEnvironment=="},
+							"subViews": [
+								{ "_type": "UMLNameCompartmentView", "_id": "AAAAAAXViewEnvironmentName==", "_parent": {"$ref": "AAAAAAXViewEnvironment=="}, "model": {"$ref": "AAAAAAXClsEnvironment=="}, "subViews": [ { "_type": "LabelView", "_id": "AAAAAAXLabEnvStereo==", "_parent": {"$ref": "AAAAAAXViewEnvironmentName=="}, "visible": false, "font": "Arial;13;0", "parentStyle": true, "height": 13 }, { "_type": "LabelView", "_id": "AAAAAAXLabEnvName==", "_parent": {"$ref": "AAAAAAXViewEnvironmentName=="}, "font": "Arial;13;1", "parentStyle": true, "width": 90, "height": 13, "text": "Environment" } ], "font": "Arial;13;0", "parentStyle": true, "left": 0, "top": 0, "width": 110, "height": 25, "stereotypeLabel": {"$ref": "AAAAAAXLabEnvStereo=="}, "nameLabel": {"$ref": "AAAAAAXLabEnvName=="} },
+								{ "_type": "UMLAttributeCompartmentView", "_id": "AAAAAAXViewEnvironmentAttr==", "_parent": {"$ref": "AAAAAAXViewEnvironment=="}, "model": {"$ref": "AAAAAAXClsEnvironment=="}, "font": "Arial;13;0", "parentStyle": true, "left": 0, "top": 25, "width": 160, "height": 10 },
+								{ "_type": "UMLOperationCompartmentView", "_id": "AAAAAAXViewEnvironmentOp==", "_parent": {"$ref": "AAAAAAXViewEnvironment=="}, "model": {"$ref": "AAAAAAXClsEnvironment=="}, "font": "Arial;13;0", "parentStyle": true, "left": 0, "top": 35, "width": 160, "height": 10 }
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 620,
+							"top": 120,
+							"width": 160,
+							"height": 80,
+							"nameCompartment": {"$ref": "AAAAAAXViewEnvironmentName=="},
+							"attributeCompartment": {"$ref": "AAAAAAXViewEnvironmentAttr=="},
+							"operationCompartment": {"$ref": "AAAAAAXViewEnvironmentOp=="}
+						}
+					]
+				},
+				{ "_type": "UMLClass", "_id": "AAAAAAXClsPlayer==", "_parent": {"$ref": "AAAAAAXModelRoot=="}, "name": "Player" },
+				{ "_type": "UMLClass", "_id": "AAAAAAXClsInventory==", "_parent": {"$ref": "AAAAAAXModelRoot=="}, "name": "Inventory" },
+				{ "_type": "UMLClass", "_id": "AAAAAAXClsEnvironment==", "_parent": {"$ref": "AAAAAAXModelRoot=="}, "name": "Environment" }
+			]
+		}
+	],
+	"documentVersion": 1
+}

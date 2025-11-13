@@ -1,0 +1,182 @@
+{
+  "_type": "Project",
+  "_id": "proj-offscript",
+  "name": "OffScript — Use Case Diagram (Final)",
+  "defaultDiagram": "diag-main",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "model-root",
+      "name": "Model",
+      "ownedElements": [
+        { "_type": "UMLActor", "_id": "actor-player", "name": "Player" },
+        { "_type": "UMLActor", "_id": "actor-engine", "name": "Game Engine" },
+        { "_type": "UMLSubsystem", "_id": "subsystem-game", "name": "OffScript Game System" },
+        { "_type": "UMLUseCase", "_id": "uc-pickup", "name": "Pick Up Powerup (Act 3)" },
+        { "_type": "UMLUseCase", "_id": "uc-freeze", "name": "Survive Freeze Event (Act 2)" },
+        { "_type": "UMLUseCase", "_id": "uc-hazards", "name": "Avoid Hazards (Act 1)" },
+        { "_type": "UMLUseCase", "_id": "uc-sweep", "name": "Sweep Debris (Act 1)" },
+        { "_type": "UMLUseCase", "_id": "uc-start", "name": "Start Game / Load Save" },
+        { "_type": "UMLUseCase", "_id": "uc-controls", "name": "Controls" },
+        { "_type": "UMLUseCase", "_id": "uc-usepower", "name": "Use Powerup (Act 3)" },
+        { "_type": "UMLUseCase", "_id": "uc-interact", "name": "Interact with Object (Bin, Pit, Banana)" },
+        { "_type": "UMLUseCase", "_id": "uc-ending", "name": "View Ending / Progress" },
+        { "_type": "UMLInclude", "_id": "rel-inc-pickup-use", "includingCase": "uc-pickup", "addition": "uc-usepower" },
+        { "_type": "UMLInclude", "_id": "rel-inc-freeze-use", "includingCase": "uc-freeze", "addition": "uc-usepower" },
+        { "_type": "UMLInclude", "_id": "rel-inc-use-interact", "includingCase": "uc-usepower", "addition": "uc-interact" },
+        { "_type": "UMLExtend", "_id": "rel-ext-use-ending", "extendedCase": "uc-ending", "extension": "uc-usepower" },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-player-pickup",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-player" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-pickup" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-player-freeze",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-player" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-freeze" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-player-hazards",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-player" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-hazards" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-player-sweep",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-player" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-sweep" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-player-start",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-player" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-start" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-player-controls",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-player" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-controls" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-player-use",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-player" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-usepower" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-player-interact",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-player" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-interact" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-player-ending",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-player" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-ending" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-engine-pickup",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-engine" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-pickup" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-engine-freeze",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-engine" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-freeze" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-engine-hazards",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-engine" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-hazards" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-engine-sweep",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-engine" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-sweep" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-engine-start",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-engine" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-start" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-engine-controls",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-engine" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-controls" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-engine-use",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-engine" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-usepower" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-engine-interact",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-engine" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-interact" }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "assoc-engine-ending",
+          "end1": { "_type": "UMLAssociationEnd", "reference": "actor-engine" },
+          "end2": { "_type": "UMLAssociationEnd", "reference": "uc-ending" }
+        }
+      ],
+      "ownedDiagrams": [
+        {
+          "_type": "UMLUseCaseDiagram",
+          "_id": "diag-main",
+          "name": "OffScript — Use Case Diagram (Final)",
+          "ownedViews": [
+            { "_type": "UMLActorView", "_id": "view-actor-player", "model": "actor-player", "left": 40, "top": 220 },
+            { "_type": "UMLActorView", "_id": "view-actor-engine", "model": "actor-engine", "left": 40, "top": 80 },
+            { "_type": "UMLSubsystemView", "_id": "view-subsystem", "model": "subsystem-game", "left": 160, "top": 20, "width": 880, "height": 520 },
+            { "_type": "UMLUseCaseView", "_id": "view-uc-pickup", "model": "uc-pickup", "left": 220, "top": 60, "width": 200, "height": 40, "containerView": "view-subsystem" },
+            { "_type": "UMLUseCaseView", "_id": "view-uc-freeze", "model": "uc-freeze", "left": 220, "top": 120, "width": 220, "height": 40, "containerView": "view-subsystem" },
+            { "_type": "UMLUseCaseView", "_id": "view-uc-hazards", "model": "uc-hazards", "left": 220, "top": 180, "width": 200, "height": 40, "containerView": "view-subsystem" },
+            { "_type": "UMLUseCaseView", "_id": "view-uc-sweep", "model": "uc-sweep", "left": 220, "top": 240, "width": 200, "height": 40, "containerView": "view-subsystem" },
+            { "_type": "UMLUseCaseView", "_id": "view-uc-start", "model": "uc-start", "left": 220, "top": 300, "width": 220, "height": 40, "containerView": "view-subsystem" },
+            { "_type": "UMLUseCaseView", "_id": "view-uc-controls", "model": "uc-controls", "left": 220, "top": 360, "width": 140, "height": 40, "containerView": "view-subsystem" },
+            { "_type": "UMLUseCaseView", "_id": "view-uc-usepower", "model": "uc-usepower", "left": 560, "top": 180, "width": 200, "height": 40, "containerView": "view-subsystem" },
+            { "_type": "UMLUseCaseView", "_id": "view-uc-interact", "model": "uc-interact", "left": 520, "top": 300, "width": 300, "height": 40, "containerView": "view-subsystem" },
+            { "_type": "UMLUseCaseView", "_id": "view-uc-ending", "model": "uc-ending", "left": 880, "top": 360, "width": 200, "height": 40, "containerView": "view-subsystem" },
+            { "_type": "UMLIncludeView", "_id": "view-inc-pickup-use", "model": "rel-inc-pickup-use", "head": "view-uc-usepower", "tail": "view-uc-pickup" },
+            { "_type": "UMLIncludeView", "_id": "view-inc-freeze-use", "model": "rel-inc-freeze-use", "head": "view-uc-usepower", "tail": "view-uc-freeze" },
+            { "_type": "UMLIncludeView", "_id": "view-inc-use-interact", "model": "rel-inc-use-interact", "head": "view-uc-interact", "tail": "view-uc-usepower" },
+            { "_type": "UMLExtendView", "_id": "view-ext-use-ending", "model": "rel-ext-use-ending", "head": "view-uc-ending", "tail": "view-uc-usepower" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-player-pickup", "model": "assoc-player-pickup", "head": "view-uc-pickup", "tail": "view-actor-player" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-player-freeze", "model": "assoc-player-freeze", "head": "view-uc-freeze", "tail": "view-actor-player" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-player-hazards", "model": "assoc-player-hazards", "head": "view-uc-hazards", "tail": "view-actor-player" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-player-sweep", "model": "assoc-player-sweep", "head": "view-uc-sweep", "tail": "view-actor-player" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-player-start", "model": "assoc-player-start", "head": "view-uc-start", "tail": "view-actor-player" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-player-controls", "model": "assoc-player-controls", "head": "view-uc-controls", "tail": "view-actor-player" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-player-use", "model": "assoc-player-use", "head": "view-uc-usepower", "tail": "view-actor-player" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-player-interact", "model": "assoc-player-interact", "head": "view-uc-interact", "tail": "view-actor-player" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-player-ending", "model": "assoc-player-ending", "head": "view-uc-ending", "tail": "view-actor-player" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-engine-pickup", "model": "assoc-engine-pickup", "head": "view-uc-pickup", "tail": "view-actor-engine" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-engine-freeze", "model": "assoc-engine-freeze", "head": "view-uc-freeze", "tail": "view-actor-engine" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-engine-hazards", "model": "assoc-engine-hazards", "head": "view-uc-hazards", "tail": "view-actor-engine" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-engine-sweep", "model": "assoc-engine-sweep", "head": "view-uc-sweep", "tail": "view-actor-engine" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-engine-start", "model": "assoc-engine-start", "head": "view-uc-start", "tail": "view-actor-engine" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-engine-controls", "model": "assoc-engine-controls", "head": "view-uc-controls", "tail": "view-actor-engine" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-engine-use", "model": "assoc-engine-use", "head": "view-uc-usepower", "tail": "view-actor-engine" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-engine-interact", "model": "assoc-engine-interact", "head": "view-uc-interact", "tail": "view-actor-engine" },
+            { "_type": "UMLAssociationView", "_id": "view-assoc-engine-ending", "model": "assoc-engine-ending", "head": "view-uc-ending", "tail": "view-actor-engine" }
+          ]
+        }
+      ]
+    }
+  ]
+}
